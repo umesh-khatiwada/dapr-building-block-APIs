@@ -8,7 +8,7 @@ services:
       - APP_PORT=8000
       - DAPR_HOST=dapr-sidecar
       - DAPR_HTTP_PORT=3500
-      - CONVERSATION_COMPONENT=llm-chat
+      - CONVERSATION_COMPONENT=echo
     depends_on:
       - dapr-sidecar
     networks:

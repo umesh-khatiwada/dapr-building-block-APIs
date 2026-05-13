@@ -1,15 +1,7 @@
 apiVersion: dapr.io/v1alpha1
 kind: Component
 metadata:
-  name: openai
+  name: echo
 spec:
-  type: conversation.openai
-  metadata:
-    - name: key
-      value: "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"
-    - name: endpoint
-      value: "https://integrate.api.nvidia.com/v1"
-    - name: model
-      value: nvidia/nemotron-3-super-120b-a12b
-    - name: cacheTTL
-      value: 10m
+  type: conversation.echo
+  version: v1

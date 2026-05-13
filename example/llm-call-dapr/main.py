@@ -10,7 +10,7 @@ from pydantic import BaseModel, Field
 APP_PORT = int(os.getenv("APP_PORT", "8000"))
 DAPR_HOST = os.getenv("DAPR_HOST", "localhost")
 DAPR_HTTP_PORT = int(os.getenv("DAPR_HTTP_PORT", "3500"))
-CONVERSATION_COMPONENT = os.getenv("CONVERSATION_COMPONENT", "llm-chat")
+CONVERSATION_COMPONENT = os.getenv("CONVERSATION_COMPONENT", "echo")
 DEFAULT_SYSTEM_PROMPT = os.getenv(
     "DEFAULT_SYSTEM_PROMPT",
     "You are a concise assistant. Keep responses short and practical.",
