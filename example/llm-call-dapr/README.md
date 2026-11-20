@@ -63,7 +63,7 @@ Example response:
 
 ```json
 {
-  "component": "llm-chat",
+  "component": "echo",
   "prompt": "Explain Dapr in one sentence.",
   "system_prompt": "You are a helpful assistant.",
   "reply": "...",
@@ -73,7 +73,7 @@ Example response:
 
 ## Dapr Component
 
-This sample ships with a local `conversation.echo` component named `llm-chat` so you can run it offline.
+This sample ships with a local `conversation.echo` component named `echo` so you can run it offline.
 
 To use a real provider instead, replace the component in `dapr-components/` with one of the supported conversation components and keep the app code unchanged.
 
